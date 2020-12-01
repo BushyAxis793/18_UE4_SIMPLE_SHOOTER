@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/.git": true,
+		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/.vscode": true,
+		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/Content": true,
+		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/DerivedDataCache": true,
+		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/Intermediate": true,
+		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/Saved": true
+	}
+}
