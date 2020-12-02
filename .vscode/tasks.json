@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "SIMPLE_SHOOTER Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win32",
+				"Debug",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win32",
+				"Debug",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTER Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win32",
+				"Debug",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win32",
+				"DebugGame",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win32",
+				"DebugGame",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTER Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win32",
+				"DebugGame",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win32",
+				"Development",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win32",
+				"Development",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTER Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win32",
+				"Development",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win32",
+				"Shipping",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win32",
+				"Shipping",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTER Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win32",
+				"Shipping",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win32",
+				"Test",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win32",
+				"Test",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTER Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win32",
+				"Test",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win64",
+				"Debug",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win64",
+				"Debug",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTER Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win64",
+				"Debug",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win64",
+				"DebugGame",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win64",
+				"DebugGame",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTER Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win64",
+				"DebugGame",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win64",
+				"Development",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win64",
+				"Development",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTER Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win64",
+				"Development",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win64",
+				"Shipping",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win64",
+				"Shipping",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTER Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win64",
+				"Shipping",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win64",
+				"Test",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win64",
+				"Test",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTER Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"Win64",
+				"Test",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"IOS",
+				"Debug",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"IOS",
+				"Debug",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTER IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"IOS",
+				"Debug",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"IOS",
+				"DebugGame",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"IOS",
+				"DebugGame",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTER IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"IOS",
+				"DebugGame",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"IOS",
+				"Development",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"IOS",
+				"Development",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTER IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"IOS",
+				"Development",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"IOS",
+				"Shipping",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"IOS",
+				"Shipping",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTER IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"IOS",
+				"Shipping",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"IOS",
+				"Test",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"IOS",
+				"Test",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTER IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTER IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTER",
+				"IOS",
+				"Test",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTEREditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTEREditor",
+				"Win64",
+				"Debug",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTEREditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTEREditor",
+				"Win64",
+				"Debug",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTEREditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTEREditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTEREditor",
+				"Win64",
+				"Debug",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTEREditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTEREditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTEREditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTEREditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTEREditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTEREditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTEREditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTEREditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTEREditor",
+				"Win64",
+				"Development",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTEREditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SIMPLE_SHOOTEREditor",
+				"Win64",
+				"Development",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SIMPLE_SHOOTEREditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "SIMPLE_SHOOTEREditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SIMPLE_SHOOTEREditor",
+				"Win64",
+				"Development",
+				"D:\\Repositories\\18_UE4_SIMPLE_SHOOTER\\SIMPLE_SHOOTER.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		}
+	]
+}
