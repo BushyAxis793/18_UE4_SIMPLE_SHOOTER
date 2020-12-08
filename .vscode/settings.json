@@ -1,10 +1,11 @@
 {
 	"files.exclude": {
-		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/.git": true,
-		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/.vscode": true,
-		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/Content": true,
-		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/DerivedDataCache": true,
-		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/Intermediate": true,
-		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/Saved": true
+		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/SIMPLE_SHOOTER/.git": true,
+		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/SIMPLE_SHOOTER/.vs": true,
+		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/SIMPLE_SHOOTER/.vscode": true,
+		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/SIMPLE_SHOOTER/Content": true,
+		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/SIMPLE_SHOOTER/DerivedDataCache": true,
+		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/SIMPLE_SHOOTER/Intermediate": true,
+		"D:/Repositories/18_UE4_SIMPLE_SHOOTER/SIMPLE_SHOOTER/Saved": true
 	}
 }
